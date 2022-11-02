@@ -6,7 +6,7 @@
 
 html {
   font-family: "Open Sans", sans-serif;
-  background-color: gray;
+  background-color: #ecf1f1;
 }
 
 body {
@@ -15,23 +15,33 @@ body {
 }
 
 header {
-  font-size: larger;
+  font-size: xx-large;
   color: white;
   background-color: #004175;
-  padding: 1rem;
+  padding: 2rem;
   border-bottom-color: #89deef;
   border-bottom-width: 0.25rem;
   border-bottom-style: solid;
 }
 
 .main {
-  border: 2px solid greenyellow;
-  padding: 5%;
+  display: grid;
+  padding: 2rem;
 }
 
 .dog {
   border: 8px solid orangered;
 }
 
-.traits {
+.dog-name {
+  font-size: larger;
+}
+
+.traits > span {
+  background-color: #89deef;
+  border: 0.1%;
+  border-radius: 5%;
+  border-color: darkorange;
+  margin: 0.1%;
+  padding: 0.1%;
 }
