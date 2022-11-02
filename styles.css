@@ -1,5 +1,8 @@
 header {
   color: white;
   background-color: #004175;
-  border-color: #89deef;
+  padding: 1rem;
+  border-bottom-color: #89deef;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
 }
