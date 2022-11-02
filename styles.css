@@ -3,15 +3,19 @@
 *::after {
   box-sizing: border-box;
 }
+
 html {
   font-family: "Open Sans", sans-serif;
   background-color: gray;
 }
+
 body {
   margin: 0 15rem;
   background-color: white;
 }
+
 header {
+  font-size: larger;
   color: white;
   background-color: #004175;
   padding: 1rem;
@@ -19,7 +23,15 @@ header {
   border-bottom-width: 0.25rem;
   border-bottom-style: solid;
 }
-.dog {
+
+.main {
+  border: 2px solid greenyellow;
+  padding: 5%;
 }
+
+.dog {
+  border: 8px solid orangered;
+}
+
 .traits {
 }
