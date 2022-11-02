@@ -3,6 +3,7 @@ header {
   background-color: #004175;
   padding: 1rem;
   border-bottom-color: #89deef;
-  border-bottom-width: 0.1rem;
+  border-bottom-width: 0.25rem;
   border-bottom-style: solid;
+  margin: 0px 5rem;
 }
