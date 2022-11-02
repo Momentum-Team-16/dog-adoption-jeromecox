@@ -1,5 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html {
   font-family: "Open Sans", sans-serif;
+  background-color: gray;
+}
+body {
+  margin: 0 15rem;
+  background-color: white;
 }
 header {
   color: white;
@@ -8,7 +18,8 @@ header {
   border-bottom-color: #89deef;
   border-bottom-width: 0.25rem;
   border-bottom-style: solid;
-  margin: 0px 5rem;
 }
-.dogs {
+.dog {
+}
+.traits {
 }
