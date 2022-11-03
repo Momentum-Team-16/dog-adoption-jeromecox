@@ -36,21 +36,21 @@ header {
   font-size: 1.8rem;
   font-weight: bold;
   margin: 0.7rem 0 0.7rem 0;
+  min-width: 100%;
 }
 
 .main > p {
   font-size: 1rem;
   margin: 0.5rem 0 0.5rem 0;
+  min-width: 100%;
 }
 
 .dog {
-  max-width: 30%;
+  max-width: 370px;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
-}
-
-.dog-image {
-  max-width: 100%;
+  padding: 0.2rem;
 }
 
 .dog-name {
@@ -58,9 +58,10 @@ header {
   font-weight: bold;
 }
 
-.traits > span {
+.traits span {
   font-size: small;
   background-color: #89deef;
   border-radius: 0.4rem;
   padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  display: inline-block;
 }
