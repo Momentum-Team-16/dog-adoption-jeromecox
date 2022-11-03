@@ -10,8 +10,9 @@ html {
 }
 
 body {
-  margin: 0 15rem;
+  margin: 0 10%;
   background-color: white;
+  max-width: 80%;
 }
 
 header {
@@ -27,6 +28,8 @@ header {
 
 .main {
   padding: 0.7rem 3rem 0.7rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-title {
@@ -40,7 +43,14 @@ header {
   margin: 0.5rem 0 0.5rem 0;
 }
 
-.dog > div {
+.dog {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dog-image {
+  max-width: 100%;
 }
 
 .dog-name {
