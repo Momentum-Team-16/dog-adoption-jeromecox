@@ -15,18 +15,27 @@ body {
 }
 
 header {
-  font-size: xx-large;
+  font-size: 2.5rem;
+  font-weight: bold;
   color: white;
   background-color: #004175;
-  padding: 2rem;
+  padding: 1.5rem 3rem 1.5rem 3rem;
   border-bottom-color: #89deef;
   border-bottom-width: 0.25rem;
   border-bottom-style: solid;
 }
 
 .main {
-  display: grid;
-  padding: 2rem;
+  padding: 0.7rem 3rem 0.7rem 3rem;
+}
+
+.main-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main > p {
+  font-size: 1rem;
 }
 
 .dog {
