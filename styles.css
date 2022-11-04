@@ -92,6 +92,7 @@ footer {
     ),
     url(starter_files/images/donate.jpg);
 }
+
 .box-volunteer {
   background: linear-gradient(
       rgba(166, 169, 240, 0.7),
@@ -99,6 +100,7 @@ footer {
     ),
     url(starter_files/images/volunteer.jpg);
 }
+
 .box-our-location {
   background: linear-gradient(
       rgba(166, 169, 240, 0.7),
