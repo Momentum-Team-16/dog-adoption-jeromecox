@@ -20,14 +20,13 @@ header {
   font-weight: bold;
   color: white;
   background-color: #004175;
-  padding: 1.5rem 3rem 1.5rem 3rem;
+  padding: 1.5rem 3rem;
   border-bottom-color: #89deef;
   border-bottom-width: 0.25rem;
   border-bottom-style: solid;
 }
-
 .main {
-  padding: 0.7rem 3rem 0.7rem 3rem;
+  padding: 0.7rem 3rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -93,6 +92,7 @@ footer {
     url(starter_files/images/donate.jpg);
   background-size: cover, cover;
 }
+
 .box-volunteer {
   background: linear-gradient(
       rgba(166, 169, 240, 0.7),
@@ -101,6 +101,7 @@ footer {
     url(starter_files/images/volunteer.jpg);
   background-size: cover, cover;
 }
+
 .box-our-location {
   background: linear-gradient(
       rgba(166, 169, 240, 0.7),
